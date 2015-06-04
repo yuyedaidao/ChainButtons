@@ -14,6 +14,7 @@
 		21AC9D3A1B1EF30E00AAE234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21AC9D391B1EF30E00AAE234 /* Images.xcassets */; };
 		21AC9D3D1B1EF30E00AAE234 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21AC9D3B1B1EF30E00AAE234 /* LaunchScreen.xib */; };
 		21AC9D491B1EF30E00AAE234 /* ChainButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC9D481B1EF30E00AAE234 /* ChainButtonsTests.m */; };
+		21AC9D551B1EF44C00AAE234 /* ChainButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC9D541B1EF44C00AAE234 /* ChainButtons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		21AC9D421B1EF30E00AAE234 /* ChainButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AC9D471B1EF30E00AAE234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21AC9D481B1EF30E00AAE234 /* ChainButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainButtonsTests.m; sourceTree = "<group>"; };
+		21AC9D531B1EF44C00AAE234 /* ChainButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainButtons.h; sourceTree = "<group>"; };
+		21AC9D541B1EF44C00AAE234 /* ChainButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainButtons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		21AC9D201B1EF30E00AAE234 = {
 			isa = PBXGroup;
 			children = (
+				21AC9D521B1EF37200AAE234 /* Classes */,
 				21AC9D2B1B1EF30E00AAE234 /* ChainButtons */,
 				21AC9D451B1EF30E00AAE234 /* ChainButtonsTests */,
 				21AC9D2A1B1EF30E00AAE234 /* Products */,
@@ -117,6 +121,15 @@
 				21AC9D471B1EF30E00AAE234 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21AC9D521B1EF37200AAE234 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21AC9D531B1EF44C00AAE234 /* ChainButtons.h */,
+				21AC9D541B1EF44C00AAE234 /* ChainButtons.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				21AC9D351B1EF30E00AAE234 /* ViewController.m in Sources */,
 				21AC9D321B1EF30E00AAE234 /* AppDelegate.m in Sources */,
 				21AC9D2F1B1EF30E00AAE234 /* main.m in Sources */,
+				21AC9D551B1EF44C00AAE234 /* ChainButtons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

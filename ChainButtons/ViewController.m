@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ChainButtons.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)showButtons:(id)sender {
+    
+    [ChainButtons showWithImageNameArray:@[@"a",@"b",@"c",@"d"] clickBlock:^(NSInteger index) {
+        NSLog(@"clicked %d",index);
+    } bottomPosition:self.view.center];
 }
 
 - (void)didReceiveMemoryWarning {
